@@ -137,8 +137,8 @@ const ProfileScreen = () => {
                     )}
                   </td>
                   <td>
-                    {order.delivered ? (
-                      order.DeliveredAt.substring(0, 10)
+                    {order.isDelivered ? (
+                      order.deliveredAt.substring(0, 10)
                     ) : (
                       <i className="fa fa-times" style={{ color: "red" }}></i>
                     )}
